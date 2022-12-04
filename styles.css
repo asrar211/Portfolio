@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-accent: #345b63;
+    --color-back: #345b63;
+    --color-primary: #d4ecdd;
+    --color-secondary: #bbdeab;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> NAVBAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    background: var(--color-back);
+    width: 100%;
+}
+
+.navbar {}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav__list {
+    font-size: 2rem;
+    list-style: none;
+    margin: 2rem 1.5rem;
+}
+
+.nav__list a {
+    color: var(--color-primary);
+    padding: 1rem 2rem;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px var(--color-primary);
+    transition: all .5s;
+}
+
+.nav__list a:hover {
+    background: var(--color-secondary);
+    border-radius: 2rem 4rem;
+    color: var(--color-accent);
+    text-shadow: 0px 0px 10px var(--color-accent);
+}
+
+@media screen and (min-width: 768px) {
+    .nav__list {
+        margin: 3rem 6rem;
+    }
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> MAIN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main>h1 {
+    color: var(--color-primary);
+    font-size: 4rem;
+    margin-top: 8rem;
+    width: 60%;
+    line-height: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .main h1 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.main>p {
+    color: var(--color-secondary);
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 1rem 3rem;
+    opacity: .7;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .main p {
+        width: 50%;
+    }
+}
+
+.main>a {
+    background: var(--color-secondary);
+    color: var(--color-back);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    margin-bottom: 5rem;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> WHAT I DO? <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.work {
+    background: var(--color-accent);
+}
+
+.work__profile>h1 {
+    margin-top: -1rem;
+    font-size: 4rem;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.work__profile>p {
+    text-align: center;
+    opacity: 0.8;
+    color: var(--color-secondary);
+    margin: 3rem;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .work__profile>p {
+        margin: 4rem 20rem;
+    }
+}
+
+.progress {
+    margin-top: 6rem;
+    margin-left: 3rem;
+    padding-bottom: 5rem;
+}
+
+.progress__bars {
+    background: var(--color-primary);
+    height: 3.6rem;
+    width: 95%;
+    border-radius: 2rem;
+    padding: .2rem;
+    box-shadow: 0px 0px 10px var(--color-primary);
+}
+
+@media screen and (min-width: 768px) {
+    .progress__bars {
+        width: 85%;
+    }
+}
+
+.progress__bars>div {
+    background-color: var(--color-accent);
+    height: 3rem;
+    padding-top: .6rem;
+    border-radius: 2rem;
+    width: 95%;
+    box-shadow: 0px 0px 10px var(--color-accent);
+}
+
+.progress__bars>div>p {
+    color: var(--color-secondary);
+    margin-left: 1rem;
+    margin-top: .6rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 0px 0px 10px var(--color-secondary);
+}
+
+.progress__bars__css>div {
+    width: 90%;
+}
+
+.progress__bars__javascript>div {
+    width: 80%;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> MY PROJECTS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.project {
+    background: var(--color-accent);
+    margin-top: -3rem;
+}
+
+.project>h1 {
+    padding: 0rem 0 3rem;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--color-primary);
+}
+
+.project__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .project__style {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.project__cards {
+    background: var(--color-secondary);
+    width: 60%;
+    height: 25rem;
+    margin-bottom: 3rem;
+    border-radius: 4rem;
+    cursor: pointer;
+}
+
+.project__cards:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+    .project__cards {
+        width: 30%;
+        margin: 2rem 2rem;
+    }
+}
+
+.project__heading {
+    margin: 19rem 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-accent);
+    border: 1px solid var(--color-accent);
+    border-radius: 2rem;
+    padding: .7rem;
+    transition: all .5s;
+}
+
+.project__heading:hover {
+    background: var(--color-accent);
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 445px) {
+    .project__heading {
+        margin: 16rem 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .project__heading {
+        margin: 16rem 2rem;
+    }
+}
+
+@media screen and (min-width: 895px) {
+    .project__heading {
+        margin: 19rem 2rem;
+    }
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CONTACT ME <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.contact {
+    background: var(--color-secondary);
+    margin-top: -3rem;
+    padding-bottom: 5rem;
+}
+
+.contact__details>h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 2rem;
+    color: var(--color-accent);
+}
+
+.contact__links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.contact__list {
+    list-style: none;
+}
+
+.contact__list>a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 1px solid var(--color-accent);
+    padding: 5px 7px;
+    border-radius: 2rem;
+    color: var(--color-accent);
+    transition: all 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+    .contact__list>a {
+        padding: .5rem 3rem;
+    }
+}
+
+.contact__list>a:hover {
+    background: var(--color-accent);
+    color: var(--color-primary);
+}
+
+.copy {
+    font-size: 1.7rem;
+    color: var(--color-accent);
+    text-align: center;
+    margin-top: 2rem;
+}
