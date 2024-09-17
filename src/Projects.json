@@ -1,0 +1,43 @@
+[
+    {
+      "title": "FileWave",
+      "description": "Developed a Cloud Storage System using the MERN Stack, ensuring scalability, security, and following best practices.",
+      "technologies": ["MongoDB", "Express.js", "React.js", "Node.js"],
+      "achievements": [
+        "Implemented secure authentication and authorization.",
+        "Optimized data storage and retrieval for high performance.",
+        "Followed industry best practices for code quality and security."
+      ]
+    },
+    {
+      "title": "EduLearn Platform",
+      "description": "Created an e-Learning platform for online courses with features for course creation, management, and student interaction.",
+      "technologies": ["ReactJs", "Node.js", "MongoDB", "Tailwind CSS"],
+      "achievements": [
+        "Developed a comprehensive admin panel for course and user management.",
+        "Integrated real-time chat and video conferencing features.",
+        "Implemented a responsive design for seamless access across devices."
+      ]
+    },
+    {
+      "title": "Eventify",
+      "description": "Built an event management application for organizing, tracking, and managing events with real-time updates.",
+      "technologies": ["NextJs", "Postgres"],
+      "achievements": [
+        "Developed a real-time notification system for event updates.",
+        "Integrated third-party APIs for payment and location services.",
+        "Ensured cross-platform compatibility with mobile and desktop interfaces."
+      ]
+    },
+    {
+      "title": "ShopMate",
+      "description": "Designed an e-commerce platform with a focus on user experience, inventory management, and secure transactions.",
+      "technologies": ["NextJs", "Postgres", "Tailwind CSS"],
+      "achievements": [
+        "Implemented advanced search and filtering options for products.",
+        "Integrated a secure payment gateway and order tracking system.",
+        "Optimized site performance with lazy loading and efficient caching strategies."
+      ]
+    }
+  ]
+  
