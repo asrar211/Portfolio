@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import { ThemeProvider } from './Context/ThemeContext';
-import "./Index.css"
+import "./index.css"
 
 
 ReactDOM.render(
